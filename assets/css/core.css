@@ -11308,15 +11308,3 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
-
-.main-wrapper {
-  height: 100vh;  
-}
-
-.section {
-  height: 100%;  
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
