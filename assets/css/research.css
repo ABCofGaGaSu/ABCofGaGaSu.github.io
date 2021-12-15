@@ -1,0 +1,16 @@
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next { 
+    visibility: visible; 
+}
+
+.carousel:hover .carousel-control-prev, 
+.carousel:hover .carousel-control-next { 
+    visibility: visible; 
+}
+
+@media (min-width: 992px) {
+    .carousel .carousel-control-prev,
+    .carousel .carousel-control-next {
+        visibility: hidden; 
+    }
+}
