@@ -1,14 +1,7 @@
-.main-wrapper {
-    height: 100vh;  
+.py-11 {
+    padding-top: 6rem !important;
+    padding-bottom: 6rem !important;
   }
-  
-.section {
-    height: 100%;  
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
 
 .fade-in {
     position: relative;
@@ -23,7 +16,7 @@
 
 .fade-down {
     position: relative;
-    animation: fadedown 3s;
+    animation: fadedown 2.3s;
     animation-timing-function: ease;
 }
 
