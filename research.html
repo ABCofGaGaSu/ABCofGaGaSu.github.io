@@ -14,7 +14,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="assets/css/core.css" rel="stylesheet" />
-        <link href="assets/css/research.css" rel="stylesheet" />
+        <!-- Custom CSS (Bootstrap override) -->
+        <link href="assets/css/mycarousel.css" rel="stylesheet" />
     </head>
     <body class="d-flex flex-column">
         <main class="flex-shrink-0">
@@ -55,16 +56,11 @@
             <section class="py-5 bg-light" id="dip4oct">
                 <div class="container px-4 my-5">
                     <div class="row gx-5 align-items-center">
+                        
                         <!--Carousel-->
                         <div class="col-lg-6">
-                            <div id="dip4oct_carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="0" class="active"></button>
-                                  <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="1"></button>
-                                  <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="2"></button>
-                                  <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="3"></button>
-                                </div>
-                                <div class="carousel-inner rounded mb-5 mb-lg-0">
+                            <div id="dip4oct_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
+                                <div class="carousel-inner rounded mb-2">
                                   <div class="carousel-item active">
                                     <img src="assets/img/research/dip4oct/dip4oct_1.png" class="img-fluid d-block mx-auto" alt="dip4oct_1">
                                   </div>
@@ -78,16 +74,29 @@
                                     <img src="assets/img/research/dip4oct/dip4oct_4.png" class="img-fluid d-block mx-auto" alt="dip4oct_4">
                                   </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#dip4oct_carousel" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#dip4oct_carousel" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
+
+                                <div class="d-flex justify-content-between">
+                                    <div class="carousel-indicators d-inline-block">
+                                        <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="0" class="active"></button>
+                                        <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="1"></button>
+                                        <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="2"></button>
+                                        <button type="button" data-bs-target="#dip4oct_carousel" data-bs-slide-to="3"></button>
+                                    </div>
+
+                                    <div class="d-inline-block align-items-center mx-1">
+                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#dip4oct_carousel" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#dip4oct_carousel" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                        
                         <!--text-->
                         <div class="col-lg-6">
                             <h2 class="fw-bolder mb-3">Image Processing and Analysis for OCT Images</h2>
@@ -104,31 +113,39 @@
             <section class="py-5 bg-light">
                 <div class="container px-4 my-5">
                     <div class="row gx-5 align-items-center">
+
                         <!--Carousel-->
                         <div class="col-lg-6">
-                            <div id="pixelreg_carousel" class="carousel carousel-dark slide" data-bs-ride="carousel">
-                                <div class="carousel-indicators">
-                                  <button type="button" data-bs-target="#pixelreg_carousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
-                                  <button type="button" data-bs-target="#pixelreg_carousel" data-bs-slide-to="1"></button>
+                            <div id="pixelreg_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
+                                <div class="carousel-inner rounded mb-2">
+                                    <div class="carousel-item active">
+                                        <img src="assets/img/research/pixelreg/pixelreg_1.png" class="img-fluid d-block mx-auto" alt="pixelreg_1">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="assets/img/research/pixelreg/pixelreg_2.png" class="img-fluid d-block mx-auto" alt="pixelreg_2">
+                                    </div>
                                 </div>
-                                <div class="carousel-inner rounded mb-5 mb-lg-0">
-                                  <div class="carousel-item active">
-                                    <img src="assets/img/research/pixelreg/pixelreg_1.png" class="img-fluid d-block mx-auto" alt="pixelreg_1">
-                                  </div>
-                                  <div class="carousel-item">
-                                    <img src="assets/img/research/pixelreg/pixelreg_2.png" class="img-fluid d-block mx-auto" alt="pixelreg_2">
-                                  </div>
+
+                                <div class="d-flex justify-content-between">
+                                    <div class="carousel-indicators d-inline-block">
+                                        <button type="button" data-bs-target="#pixelreg_carousel" data-bs-slide-to="0" class="active"></button>
+                                        <button type="button" data-bs-target="#pixelreg_carousel" data-bs-slide-to="1"></button>
+                                    </div>
+
+                                    <div class="d-inline-block align-items-center mx-1">
+                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#pixelreg_carousel" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5" style="color:black"></i></span>
+                                            <span class="visually-hidden">Previous</span>
+                                        </button>
+                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#pixelreg_carousel" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5" style="color:black"></i></span>
+                                            <span class="visually-hidden">Next</span>
+                                        </button>
+                                    </div>
                                 </div>
-                                <button class="carousel-control-prev" type="button" data-bs-target="#pixelreg_carousel" data-bs-slide="prev">
-                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Previous</span>
-                                </button>
-                                <button class="carousel-control-next" type="button" data-bs-target="#pixelreg_carousel" data-bs-slide="next">
-                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                  <span class="visually-hidden">Next</span>
-                                </button>
-                              </div>
+                            </div>
                         </div>
+                        
                         <!--text-->
                         <div class="col-lg-6">
                             <h2 class="fw-bolder mb-3">Pixelwise Illuminance Registration for Displays at Oblique Perspectives</h2>
@@ -149,7 +166,7 @@
                         
                         <!--Carousel-->
                         <div class="col-lg-6">
-                            <div id="test_carousel" class="carousel carousel-dark slide mb-5 mb-lg-0" data-bs-ride="carousel">
+                            <div id="test_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
                                 <div class="carousel-inner rounded mb-2">
                                   <div class="carousel-item active">
                                     <img src="https://dummyimage.com/600x400/343a40/6c757d" class="img-fluid d-block mx-auto" alt="dip4oct_1">
@@ -166,28 +183,25 @@
                                 </div>
 
                                 <div class="d-flex justify-content-between">
-                                    <div class="d-inline-block myindicators">
+                                    <div class="carousel-indicators d-inline-block">
                                         <button type="button" data-bs-target="#test_carousel" data-bs-slide-to="0" class="active"></button>
                                         <button type="button" data-bs-target="#test_carousel" data-bs-slide-to="1"></button>
                                         <button type="button" data-bs-target="#test_carousel" data-bs-slide-to="2"></button>
                                         <button type="button" data-bs-target="#test_carousel" data-bs-slide-to="3"></button>
                                     </div>
 
-                                    <div class="d-inline-block align-items-center">
-                                        <div class="d-inline-block" type="button" data-bs-target="#test_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left" style="color:black"></i></span>
+                                    <div class="d-inline-block align-items-center mx-1">
+                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#test_carousel" data-bs-slide="prev">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5" style="color:black"></i></span>
                                             <span class="visually-hidden">Previous</span>
-                                        </div>
-                                        <div class="d-inline-block" type="button" data-bs-target="#test_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right" style="color:black"></i></span>
+                                        </button>
+                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#test_carousel" data-bs-slide="next">
+                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5" style="color:black"></i></span>
                                             <span class="visually-hidden">Next</span>
-                                        </div>
+                                        </button>
                                     </div>
-                                    
                                 </div>
                             </div>
-                            
-                            
                         </div>
 
                         <!--text-->
