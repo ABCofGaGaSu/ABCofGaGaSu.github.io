@@ -76,3 +76,7 @@
 .carousel-indicators .active {
     opacity: 1;
 }
+
+.test {
+    overflow: hidden;
+}
