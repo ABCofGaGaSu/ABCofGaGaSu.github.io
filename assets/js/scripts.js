@@ -5,3 +5,8 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+function getCurrentYear() {
+    return new Date().getFullYear(); // returns the year via local timing
+  };
+
+document.getElementById("year").innerHTML = getCurrentYear(); 
