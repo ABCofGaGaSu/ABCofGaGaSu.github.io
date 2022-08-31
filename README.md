@@ -1,2 +1,1 @@
-# OISLab homepage
-[Link](https://ABCofGaGaSu.github.io)
+https://bobby-0228.github.io/OIS-LAB-Website/
