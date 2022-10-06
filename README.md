@@ -1,2 +1,2 @@
-ABCofGaGaSu.github.io/
+ABCofGaGaSu.github.io /
 
