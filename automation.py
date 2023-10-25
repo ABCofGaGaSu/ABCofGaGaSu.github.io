@@ -38,7 +38,9 @@ for file_name in sorted(os.listdir("./assets/img/students/"),key=rule):
     blocks_en += block.format(file_name, role_en[title], name_en)
     blocks_zh += block.format(file_name, role_zh[title], name_zh)
 
-with open("./blocks_en.txt", 'w') as f:
-    f.write(blocks_en)
-with open("./blocks_zh.txt", 'w') as f:
-    f.write(blocks_zh)
+with open("./blocks_en.txt", 'wb') as f:
+    f.write(blocks_en.encode("UTF-8"))
+with open("./blocks_zh.txt", 'wb') as f:
+    f.write(blocks_zh.encode("UTF-8"))
+
+print("Done!")

@@ -1,12 +1,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/POSTDOC_0_Chieh-En Lee_���N��.png" alt="">
+                            <img src="assets/img/students/POSTDOC_0_Chieh-En Lee_李杰恩.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">�դh���s</span>
-                            <h4><a href="#" class="author-name">���N��</a></h4>
+                            <span class="author-role">博士後研究</span>
+                            <h4><a href="#" class="author-name">李杰恩</a></h4>
                         </div>
                     </div>
                 </div>
@@ -14,12 +14,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/PHD_0_Jia-Lun Wu_�d�a��.png" alt="">
+                            <img src="assets/img/students/PHD_0_Jia-Lun Wu_吳家倫.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">���q�ҳկZ</span>
-                            <h4><a href="#" class="author-name">�d�a��</a></h4>
+                            <span class="author-role">光電所博班</span>
+                            <h4><a href="#" class="author-name">吳家倫</a></h4>
                         </div>
                     </div>
                 </div>
@@ -27,12 +27,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/PHD_0_Ya-Ti Chang Lee_�i���ȭ}.png" alt="">
+                            <img src="assets/img/students/PHD_0_Ya-Ti Chang Lee_張李亞迪.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">���q�ҳկZ</span>
-                            <h4><a href="#" class="author-name">�i���ȭ}</a></h4>
+                            <span class="author-role">光電所博班</span>
+                            <h4><a href="#" class="author-name">張李亞迪</a></h4>
                         </div>
                     </div>
                 </div>
@@ -40,12 +40,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/MS_108_Tzu-Yuan Huang_���l��.png" alt="">
+                            <img src="assets/img/students/MS_110_Chih-Chieh Yang_楊智捷.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">�Ӥh�Z</span>
-                            <h4><a href="#" class="author-name">���l��</a></h4>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">楊智捷</a></h4>
                         </div>
                     </div>
                 </div>
@@ -53,12 +53,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Kun-Yuan Lin_�L�[�G.png" alt="">
+                            <img src="assets/img/students/MS_110_Yao-Lun Ku_古曜綸.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">�j�ǳ��M�D</span>
-                            <h4><a href="#" class="author-name">�L�[�G</a></h4>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">古曜綸</a></h4>
                         </div>
                     </div>
                 </div>
@@ -66,12 +66,12 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Ming-Lin Kan_�̩��M.jpg" alt="">
+                            <img src="assets/img/students/MS_111_Si-Wei Chen_陳思瑋.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">�j�ǳ��M�D</span>
-                            <h4><a href="#" class="author-name">�̩��M</a></h4>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">陳思瑋</a></h4>
                         </div>
                     </div>
                 </div>
@@ -79,12 +79,155 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Wei-Chien Cheng_�G����.jpg" alt="">
+                            <img src="assets/img/students/MS_111_Yi-Fang Wu_吳宜芳.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
-                            <span class="author-role">�j�ǳ��M�D</span>
-                            <h4><a href="#" class="author-name">�G����</a></h4>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">吳宜芳</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Yi-Jia Li_李宜家.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">李宜家</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Ying-Tong Chen_陳映彤.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">陳映彤</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_I-Hsuan Kuo_郭羿萱.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">郭羿萱</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Min-Hsuan Chung_鍾旻諠.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">鍾旻諠</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Pei-Chia Tsai_蔡沛珈.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">蔡沛珈</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Tzu-Yuan Huang_黃子原.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">碩士班</span>
+                            <h4><a href="#" class="author-name">黃子原</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_109_Kun-Yuan Lin_林坤圜.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">大學部專題</span>
+                            <h4><a href="#" class="author-name">林坤圜</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_109_Ming-Lin Kan_甘明霖.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">大學部專題</span>
+                            <h4><a href="#" class="author-name">甘明霖</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_109_Wei-Chien Cheng_鄭惟謙.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">大學部專題</span>
+                            <h4><a href="#" class="author-name">鄭惟謙</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_111_Ngo Heng Yi_吳恆宇.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">大學部專題</span>
+                            <h4><a href="#" class="author-name">吳恆宇</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_111_Yen-Chun Lin_林彥君.JPG" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">大學部專題</span>
+                            <h4><a href="#" class="author-name">林彥君</a></h4>
                         </div>
                     </div>
                 </div>

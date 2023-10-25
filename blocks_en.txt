@@ -1,7 +1,7 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/POSTDOC_0_Chieh-En Lee_§õªN®¦.png" alt="">
+                            <img src="assets/img/students/POSTDOC_0_Chieh-En Lee_æŽæ°æ©.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -14,7 +14,7 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/PHD_0_Jia-Lun Wu_§d®a­Û.png" alt="">
+                            <img src="assets/img/students/PHD_0_Jia-Lun Wu_å³å®¶å€«.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -27,7 +27,7 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/PHD_0_Ya-Ti Chang Lee_±i§õ¨È­}.png" alt="">
+                            <img src="assets/img/students/PHD_0_Ya-Ti Chang Lee_å¼µæŽäºžè¿ª.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -40,7 +40,124 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/MS_108_Tzu-Yuan Huang_¶À¤l­ì.png" alt="">
+                            <img src="assets/img/students/MS_110_Chih-Chieh Yang_æ¥Šæ™ºæ·.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Chih-Chieh Yang</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_110_Yao-Lun Ku_å¤æ›œç¶¸.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Yao-Lun Ku</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Si-Wei Chen_é™³æ€ç‘‹.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Si-Wei Chen</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Yi-Fang Wu_å³å®œèŠ³.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Yi-Fang Wu</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Yi-Jia Li_æŽå®œå®¶.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Yi-Jia Li</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_111_Ying-Tong Chen_é™³æ˜ å½¤.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Ying-Tong Chen</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_I-Hsuan Kuo_éƒ­ç¾¿è±.jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">I-Hsuan Kuo</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Min-Hsuan Chung_é¾æ—»è« .jpg" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Min-Hsuan Chung</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Pei-Chia Tsai_è”¡æ²›çˆ.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">MASTER STUDENT</span>
+                            <h4><a href="#" class="author-name">Pei-Chia Tsai</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/MS_112_Tzu-Yuan Huang_é»ƒå­åŽŸ.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -53,7 +170,7 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Kun-Yuan Lin_ªL©[éG.png" alt="">
+                            <img src="assets/img/students/BS_109_Kun-Yuan Lin_æž—å¤åœœ.png" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -66,7 +183,7 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Ming-Lin Kan_¥Ì©úÀM.jpg" alt="">
+                            <img src="assets/img/students/BS_109_Ming-Lin Kan_ç”˜æ˜Žéœ–.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
@@ -79,12 +196,38 @@
                 <div class="student-member">
                     <div class=" mt-100 d-flex">
                         <div class="author-thumbnail">
-                            <img src="assets/img/students/BS_109_Wei-Chien Cheng_¾G±©Á¾.jpg" alt="">
+                            <img src="assets/img/students/BS_109_Wei-Chien Cheng_é„­æƒŸè¬™.jpg" alt="">
                         </div>
                         <div class="author-info">
                             <div class="line"></div>
                             <span class="author-role">COLLEGE STUDENT</span>
                             <h4><a href="#" class="author-name">Wei-Chien Cheng</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_111_Ngo Heng Yi_å³æ†å®‡.png" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">COLLEGE STUDENT</span>
+                            <h4><a href="#" class="author-name">Ngo Heng Yi</a></h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="student-member">
+                    <div class=" mt-100 d-flex">
+                        <div class="author-thumbnail">
+                            <img src="assets/img/students/BS_111_Yen-Chun Lin_æž—å½¥å›.JPG" alt="">
+                        </div>
+                        <div class="author-info">
+                            <div class="line"></div>
+                            <span class="author-role">COLLEGE STUDENT</span>
+                            <h4><a href="#" class="author-name">Yen-Chun Lin</a></h4>
                         </div>
                     </div>
                 </div>
