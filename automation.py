@@ -13,9 +13,9 @@ with open("./block.txt") as f:
 blocks_en = ""
 blocks_zh = ""
 role_en = {"POSTDOC": "POST DOCTORAL RESEARCH FELLOW",
-           "PHD": "PHD STUDENT",
-           "MS" : "MASTER STUDENT",
-           "BS" : "COLLEGE STUDENT"
+           "PHD": "PH.D. STUDENT",
+           "MS" : "MASTER'S STUDENT",
+           "BS" : "UNDERGRADUATE STUDENT"
            }
 role_zh = {"POSTDOC": "博士後研究",
            "PHD": "光電所博班",
