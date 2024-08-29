@@ -1,91 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content />
-        <meta name="author" content />
-        <title>OISLab</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="assets/css/core.css" rel="stylesheet" />
-        <!-- Custom CSS (Bootstrap override) -->
-        <link href="assets/css/mycarousel.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <div class="container px-4">
-                    <a class="navbar-brand" href="index.html">OISLab</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pub.html">Publications</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i></a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="research.html">
-                                        <img src="assets/icons/lang_en.svg" width="20px" class="me-1 align-middle" alt="english"/>
-                                        <span class="align-middle">English</span>
-                                    </a></li>
-                                    <li><a class="dropdown-item align-items-center" href="tw/research.html">
-                                        <img src="assets/icons/lang_tw.svg" width="20px" class="me-1 align-middle" alt="taiwan"/>
-                                        <span class="align-middle">中文</span>
-                                    </a></li>
-                                </ul>
-                            </li>
-                        </ul>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Facebook Opengraph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NYCU OIS LAB" />
+    <meta property="og:description" content="Research Topics"/>
+    <meta property="og:image" content="https://bobby-0228.github.io/OIS-LAB-Website/assets/img/favicon/favicon.png" />
+    <meta property="og:image:alt" content="OIS" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+
+    <!-- Title -->
+    <title>Research - OIS Lab</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--fontawsome-->
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+
+    <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="original-load"></div>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="subscribe-newsletter-area">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-body">
+                        <h5 class="title">Subscribe to my newsletter</h5>
+                        <form action="#" class="newsletterForm" method="post">
+                            <input type="email" name="email" id="subscribesForm2" placeholder="Your e-mail here">
+                            <button type="submit" class="btn original-btn">Subscribe</button>
+                        </form>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </div>
+    </div>
 
-            <!-- Header-->
-            <header class="py-5">
-                <div class="container px-4">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8 col-xxl-6">
-                            <div class="text-center my-5">
-                                <h1 class="fw-bolder mb-3">Research Topics</h1>
-                                <p class="lead fw-normal text-muted mb-4">
-                                    See what we've been making.
-                                </p>
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-sm-8">
+                        <div class="breaking-news-area">
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li>NYCU</li>
+                                    <li>OIS Lab</li>
+                                <!--
+                                    <li><a href="#">Hello Original!</a></li>
+                                    <li><a href="#">Hello Earth!</a></li>
+                                    <li><a href="#">Hello Colorlib!</a></li>
+                                --> 
+                                </ul>
                             </div>
                         </div>
                     </div>
+                    <!-- Top Social Area -->
+                    <div class="col-12 col-sm-4">
+                        <div class="top-social-area"> 
+                            <a href="https://github.com/ABCofGaGaSu" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="fa-brands fa-github fa-3x fa-shake" style="--fa-animation-duration: 3s; --fa-animation-delay: 1s" aria-hidden="true"></i></a>
+                        <!--
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Pinterest"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Behance"><i class="fa fa-behance" aria-hidden="true"></i></a>
+                            <a href="#" data-toggle="tooltip" data-placement="bottom" title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                        -->
+                        </div>
+                    </div>
                 </div>
-            </header>
-
-            <!--Research 1-->
-            <section id="dip4oct" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="dip4oct_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/dip4oct/dip4oct_1.png" class="img-fluid d-block mx-auto" alt="dip4oct_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/dip4oct/dip4oct_2.png" class="img-fluid d-block mx-auto" alt="dip4oct_2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/dip4oct/dip4oct_3.png" class="img-fluid d-block mx-auto" alt="dip4oct_3">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/dip4oct/dip4oct_4.png" class="img-fluid d-block mx-auto" alt="dip4oct_4">
-                                    </div>
-                                </div>
+            </div>
+        </div>
 
         <!-- Logo Area -->
         <div class="logo-area text-center">
@@ -149,26 +164,47 @@
                             </div>
                             <!-- Nav End -->
                         </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+     <!-- ##### Breadcumb Area Start ##### -->
+     <div class="breadcumb-area bg-img" style="background-image: url(assets/img/research-img/research-img.jpg);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="breadcumb-content text-center">
+                        <h2>Research Topics</h2>
                     </div>
                 </div>
-            </section>
+            </div>
+        </div>
+    </div>
+    <!-- ##### Breadcumb Area End ##### -->
 
-            <!--Research 2-->
-            <section id="pixelreg" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
 
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="pixelreg_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/pixelreg/pixelreg_1.png" class="img-fluid d-block mx-auto" alt="pixelreg_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/pixelreg/pixelreg_2.png" class="img-fluid d-block mx-auto" alt="pixelreg_2">
-                                    </div>
-                                </div>
+    <div class="container">
+        <div class="row d-flex align-items-center ScrollTo" style="padding:10% 5% 0 5%;">
+            <div class="col-12 col-lg-3 d-flex justify-content-center">
+                <a href="#Biomed"><button class="btn ScrollTo-btn">Biomedical Imaging</button></a>
+            </div>
+            <div class="col-12 col-lg-3 d-flex justify-content-center">
+                <a href="#DisplayTech"><button class="btn ScrollTo-btn">Display Technology</button></a>
+            </div>
+            <div class="col-12 col-lg-3 d-flex justify-content-center">
+                <a href="#LenslessSystem"><button class="btn ScrollTo-btn">Lensless System</button></a>
+            </div>
+            <div class="col-12 col-lg-3 d-flex justify-content-center">
+                <a href="#MachineLearning"><button class="btn ScrollTo-btn">Machine Learning</button></a>
+            </div>
+        </div>
+        <div class="row d-flex align-items-center" style="padding:10% 5% 0 5%;">
+            <div class="col-12 d-flex justify-content-center">
+            </div>
+        </div>
 
 
 
@@ -221,44 +257,17 @@
                 <div class="swiper-slide ">
                     <img src="assets/img/research-img/CDR/CDR1.png"  alt="">
                 </div>
-            </section>
 
-            <!--Research 3-->
-            <section id="cdr" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="cdr_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/CDR/CDR1.png" class="img-fluid d-block mx-auto " alt="CDR_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/CDR/CDR2.png" class="img-fluid d-block mx-auto " alt="CDR_2">
-                                    </div>
-                                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/CDR/CDR2.png"  alt="">
+                </div>
 
-                                <div class="d-flex justify-content-between">
-                                    <div class="carousel-indicators d-inline-block">
-                                        <button type="button" data-bs-target="#cdr_carousel" data-bs-slide-to="0" class="active"></button>
-                                        <button type="button" data-bs-target="#cdr_carousel" data-bs-slide-to="1"></button>
-                                    </div>
-
-                                    <div class="d-inline-block align-items-center mx-1">
-                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#cdr_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#cdr_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
 
             <div class=" col-12 col-xl-7" id="CDR">
                 <h2 class="research-topic">Using Deep Learning for Automated Detection of Neural Canal Opening in OCT Images</h2>
@@ -313,52 +322,25 @@
                 <div class="swiper-slide ">
                     <img src="assets/img/research-img/lenslessencrypt/lenslessencrypt_1.png"  alt="">
                 </div>
-            </section>
 
-            <!--Research 4-->
-            <section id="lenslessencrypt" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="lensless_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/lenslessencrypt/lenslessencrypt_1.png" class="img-fluid d-block mx-auto " alt="lenslessencrypt_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/lenslessencrypt/lenslessencrypt_2.png" class="img-fluid d-block mx-auto " alt="lenslessencrypt_2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/lenslessencrypt/lenslessencrypt_3.png" class="img-fluid d-block mx-auto " alt="lenslessencrypt_2">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/lenslessencrypt/lenslessencrypt_4.png" class="img-fluid d-block mx-auto " alt="lenslessencrypt_2">
-                                    </div>
-                                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/lenslessencrypt/lenslessencrypt_2.png"  alt="">
+                </div>
 
-                                <div class="d-flex justify-content-between">
-                                    <div class="carousel-indicators d-inline-block">
-                                        <button type="button" data-bs-target="#lensless_carousel" data-bs-slide-to="0" class="active"></button>
-                                        <button type="button" data-bs-target="#lensless_carousel" data-bs-slide-to="1"></button>
-                                        <button type="button" data-bs-target="#lensless_carousel" data-bs-slide-to="2"></button>
-                                        <button type="button" data-bs-target="#lensless_carousel" data-bs-slide-to="3"></button>
-                                    </div>
+                <div class="swiper-slide ">
+                    <img src="assets/img/research-img/lenslessencrypt/lenslessencrypt_3.png"  alt="">
+                </div>
 
-                                    <div class="d-inline-block align-items-center mx-1">
-                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#lensless_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#lensless_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/lenslessencrypt/lenslessencrypt_4.png"  alt="">
+                </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
 
             <div class=" col-12 col-xl-7" id="lenslessencrypt">
                 <h2 class="research-topic">Scattering-type Lensless Encryption System for Face Recognition </h2>
@@ -413,44 +395,17 @@
                 <div class="swiper-slide ">
                     <img src="assets/img/research-img/logo/logo_1.png"  alt="">
                 </div>
-            </section>
 
-            <!--Research 5-->
-            <section id="logo" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="logo_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/logo/logo_1.png" class="img-fluid d-block mx-auto " alt="logo_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/logo/logo_2.png" class="img-fluid d-block mx-auto " alt="logo_2">
-                                    </div>
-                                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/logo/logo_2.png"  alt="">
+                </div>
 
-                                <div class="d-flex justify-content-between">
-                                    <div class="carousel-indicators d-inline-block">
-                                        <button type="button" data-bs-target="#logo_carousel" data-bs-slide-to="0" class="active"></button>
-                                        <button type="button" data-bs-target="#logo_carousel" data-bs-slide-to="1"></button>
-                                    </div>
-
-                                    <div class="d-inline-block align-items-center mx-1">
-                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#logo_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#logo_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
 
             <div class=" col-12 col-xl-7" id="logo">
                 <h2 class="research-topic">Automatic Pixel-wise Logo and Banner Segmentation Algorithms</h2>
@@ -473,44 +428,17 @@
                 <div class="swiper-slide ">
                     <img src="assets/img/research-img/fabricDefect/fig1.jpg"  alt="">
                 </div>
-            </section>
 
-            <!--Research 6-->
-            <section id="fabric" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="fabric_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/fabricDefect/fig1.jpg" class="img-fluid d-block mx-auto " alt="fabric_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/fabricDefect/fig2.jpg" class="img-fluid d-block mx-auto " alt="fabric_2">
-                                    </div>
-                                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/fabricDefect/fig2.jpg"  alt="">
+                </div>
 
-                                <div class="d-flex justify-content-between">
-                                    <div class="carousel-indicators d-inline-block">
-                                        <button type="button" data-bs-target="#fabric_carousel" data-bs-slide-to="0" class="active"></button>
-                                        <button type="button" data-bs-target="#fabric_carousel" data-bs-slide-to="1"></button>
-                                    </div>
-
-                                    <div class="d-inline-block align-items-center mx-1">
-                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#fabric_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#fabric_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
 
             <div class=" col-12 col-xl-7" id="fabricDefect">
                 <h2 class="research-topic">Automatic Fabric Defect Detection</h2>
@@ -532,44 +460,17 @@
                 <div class="swiper-slide ">
                     <img src="assets/img/research-img/phaseRetrieve/fig1.jpg"  alt="">
                 </div>
-            </section>
 
-            <!--Research 8-->
-            <section id="phaseRetrieve" class="py-5 bg-light">
-                <div class="container px-4 my-5">
-                    <div class="row gx-5 align-items-center">
-                        
-                        <!--Carousel-->
-                        <div class="col-lg-6">
-                            <div id="phaseRetrieve_carousel" class="carousel slide mb-5 mb-lg-0" data-bs-ride="carousel">
-                                <div class="carousel-inner rounded mb-2">
-                                    <div class="carousel-item active">
-                                        <img src="assets/img/research/phaseRetrieve/fig1.jpg" class="img-fluid d-block mx-auto " alt="phaseRetrieve_1">
-                                    </div>
-                                    <div class="carousel-item">
-                                        <img src="assets/img/research/phaseRetrieve/fig2.jpg" class="img-fluid d-block mx-auto " alt="phaseRetrieve_2">
-                                    </div>
-                                </div>
+                <div class="swiper-slide">
+                    <img src="assets/img/research-img/phaseRetrieve/fig2.jpg"  alt="">
+                </div>
 
-                                <div class="d-flex justify-content-between">
-                                    <div class="carousel-indicators d-inline-block">
-                                        <button type="button" data-bs-target="#phaseRetrieve_carousel" data-bs-slide-to="0" class="active"></button>
-                                        <button type="button" data-bs-target="#phaseRetrieve_carousel" data-bs-slide-to="1"></button>
-                                    </div>
-
-                                    <div class="d-inline-block align-items-center mx-1">
-                                        <button class="d-inline-block carousel-control-prev" type="button" data-bs-target="#phaseRetrieve_carousel" data-bs-slide="prev">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-left fs-5"></i></span>
-                                            <span class="visually-hidden">Previous</span>
-                                        </button>
-                                        <button class="d-inline-block carousel-control-next" type="button" data-bs-target="#phaseRetrieve_carousel" data-bs-slide="next">
-                                            <span aria-hidden="true"><i class="fas fa-chevron-right fs-5"></i></span>
-                                            <span class="visually-hidden">Next</span>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            </div>
 
             <div class=" col-12 col-xl-7" id="phaseRetrieve">
                 <h2 class="research-topic">Novel Phase Retrieval Scheme through Deep Neural Network</h2>
@@ -632,26 +533,37 @@
                             </div>
                         </nav>
                     </div>
-                </div>
-            </section>
-            -->
-
-        </main>
-        <!-- Footer-->
-        <footer class="bg-dark py-4 mt-auto">
-            <div class="container px-4">
-                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                    <div class="col-auto">
-                        <div class="small m-0 text-white">
-                            Copyright &copy; OISLab 2021 - <span id="year"></span>
-                        </div>
+                    <!-- Footer Social Area -->
+                    <div class="footer-social-area mt-30">
+                        <a href="https://github.com/ABCofGaGaSu" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub"><h5 style="color: #30336b">Visit our GitHub page <i class="fa-brands fa-github"></i></h5></a>
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="assets/js/scripts.js"></script>
-    </body>
+        </div>
+
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+   Copyright &copy;<script>document.write(new Date().getFullYear());</script> NYCU OIS Lab <a href="https://colorlib.com" target="_blank">Credit</a>
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="assets/js/active.js"></script>
+    <!-- Filter js-->
+    <script src="assets/js/filter.js"></script>
+     <!-- Swiper js-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="assets/js/swiper.js"></script>
+
+</body>
+
 </html>
