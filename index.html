@@ -1,48 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>OISLab</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-        <!-- Bootstrap icons-->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="assets/css/core.css" rel="stylesheet" />
-        <link href="assets/css/index.css" rel="stylesheet" />
-    </head>
-    <body class="d-flex flex-column h-100">
-        <main class="flex-shrink-0">
-            <!-- Navigation-->
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
-                <div class="container px-4">
-                    <a class="navbar-brand" href="index.html">OISLab</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
-                            <li class="nav-item"><a class="nav-link" href="pub.html">Publications</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="bi bi-translate"></i></a>
-                                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
-                                    <li><a class="dropdown-item" href="index.html">
-                                        <img src="assets/icons/lang_en.svg" width="20px" class="me-1 align-middle" alt="english"/>
-                                        <span class="align-middle">English</span>
-                                    </a></li>
-                                    <li><a class="dropdown-item align-items-center" href="tw/index.html">
-                                        <img src="assets/icons/lang_tw.svg" width="20px" class="me-1 align-middle" alt="taiwan"/>
-                                        <span class="align-middle">中文</span>
-                                    </a></li>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Facebook Opengraph -->
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NYCU OIS LAB" />
+    <meta property="og:description" content="National Yang Ming Chiao Tung University - Optical Information System Lab"/>
+    <meta property="og:image" content="https://bobby-0228.github.io/OIS-LAB-Website/assets/img/favicon/favicon.png" />
+    <meta property="og:image:alt" content="OIS" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1024" />
+    <meta property="og:image:height" content="1024" />
+
+
+
+
+    <!-- Title -->
+    <title>OIS Lab</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="assets/img/favicon/favicon.ico">
+
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="style.css">
+ 
+    <!--fontawsome-->
+
+    <link href="assets/fontawesome/css/all.css" rel="stylesheet">
+ <!--   <link href="css/solid.css" rel="stylesheet">
+    <link href="css/fontawesome.css" rel="stylesheet">-->
+
+
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preload-content">
+            <div id="original-load"></div>
+        </div>
+    </div>
+
+    <!-- Subscribe Modal -->
+    <div class="subscribe-newsletter-area">
+        <div class="modal fade" id="subsModal" tabindex="-1" role="dialog" aria-labelledby="subsModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <div class="modal-body">
+                        <h5 class="title">Subscribe to my newsletter</h5>
+                        <form action="#" class="newsletterForm" method="post">
+                            <input type="email" name="email" id="subscribesForm2" placeholder="Your e-mail here">
+                            <button type="submit" class="btn original-btn">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ##### Header Area Start ##### -->
+    <header class="header-area">
+
+        <!-- Top Header Area -->
+        <div class="top-header">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <!-- Breaking News Area -->
+                    <div class="col-12 col-sm-8">
+                        <div class="breaking-news-area">
+                            <div id="breakingNewsTicker" class="ticker">
+                                <ul>
+                                    <li>NYCU</li>
+                                    <li>OIS Lab</li>
                                 </ul>
-                            </li>
-                        </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Top Social Area -->
+                    <div class="col-12 col-sm-4">
+                        <div class="top-social-area">
+                            <a href="https://github.com/ABCofGaGaSu" target="_blank" data-toggle="tooltip" data-placement="bottom" title="GitHub"><i class="social-media fa-brands fa-github fa-3x fa-shake" style="--fa-animation-duration: 3s; --fa-animation-delay: 1s;" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Logo Area -->
+        <div class="logo-area text-center">
+            <div class="container h-100">
+                <div class="row h-100 align-items-center">
+                    <div class="col-12">
+                        <h1 class="title-text">Optical Information System Lab</h1>
+                        <!--<a href="index.html" ><img src="img/core-img/logo.png" alt=""></a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nav Area -->
+        <div class="original-nav-area" id="stickyNav">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
+                    <!-- Classy Menu -->
+                    <nav class="classy-navbar justify-content-between">
+
+                        <div class="OISLAB">
+                            <p class=" text-center OISLAB-logo-text">OIS Lab</p>
+                        </div>
+
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
+                        </div>
+
+                        <!-- Menu -->
+                        <div class="classy-menu" id="originalNav">
+                            <!-- close btn -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                            </div>
+
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="research.html">Research</a></li>
+                                    <li><a href="members.html">Members</a></li>
+                                    <li><a href="publications.html">Publications</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="#"><i class="fa-solid fa-language fa-xl"></i></a>
+                                        <ul class="dropdown">
+                                            <li><a href="#"><img src="assets/icons/lang_en.svg" width="30px" style="padding-right: 10px;"/>English</a></li>
+                                            <li><a href="index_TW.html"><img src="assets/icons/lang_tw.svg" width="30px" style="padding-right: 10px;"/>繁體中文</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+
+                                
+                            </div>
+                            <!-- Nav End -->
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ##### Header Area End ##### -->
+
+    <!-- ##### Hero Area Start ##### -->
+    <div class="hero-area">
+        <!-- Hero Slides Area -->
+        <div class="hero-slides owl-carousel">
+            <!-- Single Slide -->
+            <div class="single-hero-slide bg-img" style="background-image: url(assets/img/index-img/ml.jpg);">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-12">
+                            <div class="slide-content text-center" >
+                                <h2 data-animation="fadeInUp" ><a href="research.html">Machine Learning</a></h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </nav>
@@ -196,10 +323,155 @@
                     </div>
                 </div>
             </div>
-        </footer>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="assets/js/scripts.js"></script>
-    </body>
+        </div>
+    </div>
+-->
+    <!-- ##### Instagram Feed Area Start ##### -->
+    <div class="instagram-feed-area">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="insta-title">
+                        <h5>See what we've been making</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Research Slides-->
+        <div class="instagram-slides owl-carousel">
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/dip4oct/dip4oct.png" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#dip4oct" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/pixelreg/pixelreg_1.png" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#pixelreg" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/CDR/CDR1.png" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#CDR" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/lenslessencrypt/lenslessencrypt_3.png" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#lenslessencrypt" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/logo/logo_1.png" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#logo" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/fabricDefect/fig1.jpg" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#fabricDefect" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/codedMask/fig2.jpg" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#codedMask" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+            <!-- Single Insta Feed -->
+            <div class="single-insta-feed">
+                <img src="assets/img/research-img/phaseRetrieve/fig2.jpg" alt="">
+                <!-- Hover Effects -->
+                <div class="hover-effects">
+                    <a href="research.html#phaseRetrieve" class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-eye"></i></a>
+                </div>
+            </div>
+        </div>
+</div>
+    <!-- ##### Instagram Feed Area End ##### -->
+
+    <!-- ##### Footer Area Start ##### -->
+    <footer class="footer-area text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                   
+                    <!-- Footer Nav Area -->
+                    <div class="classy-nav-container breakpoint-off">
+                        <!-- Classy Menu -->
+                        <nav class="classy-navbar justify-content-center">
+
+                            <!-- Navbar Toggler -->
+                            <div class="classy-navbar-toggler">
+                                <span class="navbarToggler"><span></span><span></span><span></span></span>
+                            </div>
+
+                            <!-- Menu -->
+                            <div class="classy-menu">
+
+                                <!-- close btn -->
+                                <div class="classycloseIcon">
+                                    <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                                </div>
+
+                                <!-- Nav Start -->
+                                <div class="classynav">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="research.html">Research</a></li>
+                                        <li><a href="members.html">Members</a></li>
+                                        <li><a href="publications.html">Publications</a></li>
+                                        <li><a href="contact.html">Contact</a></li>
+                                    </ul>
+                                </div>
+                                <!-- Nav End -->
+                            </div>
+                        </nav>
+                    </div>
+                    
+                    <!-- Footer Social Area -->
+                    <div class="footer-social-area mt-30">
+                        <a href="https://github.com/ABCofGaGaSu" target="_blank" data-toggle="tooltip" data-placement="top" title="GitHub"><h5 style="color: #30336b">Visit our GitHub page <i class="fa-brands fa-github"></i></h5></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+   <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> NYCU OIS Lab <a href="https://colorlib.com" target="_blank">Credit</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+
+    </footer>
+    <!-- ##### Footer Area End ##### -->
+
+    <!-- jQuery (Necessary for All JavaScript Plugins) -->
+    <script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="assets/js/popper.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- Plugins js -->
+    <script src="assets/js/plugins.js"></script>
+    <!-- Active js -->
+    <script src="assets/js/active.js"></script>
+
+</body>
+
 </html>
